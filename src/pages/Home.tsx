@@ -245,7 +245,7 @@ export default function Home() {
       </section>
 
       {/* Stats Bar Component */}
-      <section className="relative z-20 -mt-12 max-w-7xl mx-auto px-6">
+      <section className="relative z-20 mt-16 max-w-7xl mx-auto px-6">
         <div className="bg-white dark:bg-zinc-900 rounded-[40px] p-10 md:p-14 shadow-2xl shadow-blue-500/10 border border-zinc-100 dark:border-zinc-800 grid grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-0 lg:divide-x divide-zinc-100 dark:divide-zinc-800">
           {[
             { label: t("stats.exp"), value: "10+", sub: "depuis 2014" },

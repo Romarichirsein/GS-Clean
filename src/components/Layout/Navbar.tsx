@@ -84,14 +84,6 @@ export default function Navbar() {
             alt="GS Clean Logo" 
             className="w-14 h-14 object-contain group-hover:scale-110 transition-transform"
           />
-          <div className="flex flex-col">
-            <span className="font-display font-black text-2xl tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-zinc-900 to-zinc-600 dark:from-white dark:to-zinc-400 leading-none">
-              GS CLEAN
-            </span>
-            <span className="text-[8px] font-black uppercase tracking-[0.3em] text-blue-600 leading-none mt-1">
-              Le souci du détail
-            </span>
-          </div>
         </Link>
 
         {/* Desktop Nav */}

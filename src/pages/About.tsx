@@ -43,7 +43,7 @@ export default function About() {
           >
             <div className="aspect-square rounded-[64px] overflow-hidden shadow-2xl border-2 border-zinc-100 dark:border-zinc-800">
               <img 
-                src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1000&auto=format&fit=crop" 
+                src="/images/Capture d'écran 2026-05-07 055001.png" 
                 alt="Cleaning expert at work" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

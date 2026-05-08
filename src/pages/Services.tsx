@@ -9,7 +9,7 @@ const services = [
     id: "windows",
     title: "Nettoyage de vitres et panneaux solaires",
     icon: <Sun size={48} className="text-blue-500" />,
-    img: "https://images.unsplash.com/photo-1590650153855-d9e808231d41?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/Capture d'écran 2026-05-07 054903.png",
     desc: "GS Clean propose un service professionnel de nettoyage de vitres et panneaux solaires à La Louvière, Mons et Nivelles. Nous intervenons pour maisons, appartements, commerces et bureaux avec un résultat impeccable, sans traces ni résidus.",
     features: [
       "Intervention sur tous types de surfaces vitrées",
@@ -24,7 +24,7 @@ const services = [
     id: "fabric",
     title: "Nettoyage de tissus (Canapés & Textiles)",
     icon: <Sofa size={48} className="text-blue-500" />,
-    img: "https://images.unsplash.com/photo-1549490349-8643362247b5?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/Capture d'écran 2026-05-07 055043.png",
     desc: "Redonnez une seconde vie à vos canapés, fauteuils, chaises et autres surfaces textiles. Nos méthodes permettent d'éliminer les taches, les odeurs et les saletés tout en respectant les fibres des tissus.",
     features: [
       "Extraction par injection pour un nettoyage en profondeur",
@@ -39,7 +39,7 @@ const services = [
     id: "construction",
     title: "Nettoyage de fin de chantier",
     icon: <Construction size={48} className="text-blue-500" />,
-    img: "https://images.unsplash.com/photo-1581578731522-745d0514224a?q=80&w=1000&auto=format&fit=crop",
+    img: "/images/Capture d'écran 2026-05-07 054943.png",
     desc: "Après des travaux ou une rénovation, GS Clean réalise le nettoyage de fin de chantier à La Louvière, Mons et Nivelles. Nous éliminons poussières, traces de peinture et résidus pour rendre vos espaces propres.",
     features: [
       "Élimination de la poussière fine sur toutes surfaces",

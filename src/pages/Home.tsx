@@ -29,12 +29,12 @@ const staggerContainer = {
 
 
 const galleryImages = [
-  { id: 1, category: "windows", src: "https://images.unsplash.com/photo-1590650153855-d9e808231d41?q=80&w=600&auto=format&fit=crop", title: "Vitrage Commercial" },
-  { id: 2, category: "fabrics", src: "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?q=80&w=600&auto=format&fit=crop", title: "Canapé Textile" },
-  { id: 3, category: "construction", src: "https://images.unsplash.com/photo-1581578731522-745d0514224a?q=80&w=600&auto=format&fit=crop", title: "Appartement neuf" },
-  { id: 4, category: "windows", src: "https://images.unsplash.com/photo-1527515545081-5db817172677?q=80&w=600&auto=format&fit=crop", title: "Baies vitrées" },
-  { id: 5, category: "fabrics", src: "https://images.unsplash.com/photo-1540518614846-7eba433eb628?q=80&w=600&auto=format&fit=crop", title: "Chaises de bureau" },
-  { id: 6, category: "construction", src: "https://images.unsplash.com/photo-1505798577917-a65157d3320a?q=80&w=600&auto=format&fit=crop", title: "Maison rénovée" }
+  { id: 1, category: "windows", src: "/images/Capture d'écran 2026-05-07 055001.png", title: "Vitrage Commercial" },
+  { id: 2, category: "fabrics", src: "/images/Capture d'écran 2026-05-07 054924.png", title: "Canapé Textile" },
+  { id: 3, category: "construction", src: "/images/Capture d'écran 2026-05-07 054822.png", title: "Appartement neuf" },
+  { id: 4, category: "windows", src: "/images/656010950_122114372103241325_9105145638804172464_n.jpg", title: "Baies vitrées" },
+  { id: 5, category: "fabrics", src: "/images/Capture d'écran 2026-05-07 055043.png", title: "Chaises de bureau" },
+  { id: 6, category: "construction", src: "/images/659811305_122114372127241325_4961321725729247414_n.jpg", title: "Maison rénovée" }
 ];
 
 export default function Home() {
@@ -223,7 +223,7 @@ export default function Home() {
           >
             <div className="w-full aspect-square rounded-[40px] overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,0,0,0.3)] border-8 border-white dark:border-zinc-800">
               <img 
-                src="https://images.unsplash.com/photo-1527515545081-5db817172677?q=80&w=1000&auto=format&fit=crop" 
+                src="/images/644251985_122109587787241325_6390650338003336732_n.jpg" 
                 alt="Cleaning service profesional" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -352,19 +352,19 @@ export default function Home() {
                 title: t("services.windows.title"), 
                 desc: t("services.windows.desc"), 
                 icon: <Sun className="text-blue-600" size={32} />,
-                img: "https://images.unsplash.com/photo-1590650153855-d9e808231d41?q=80&w=500&auto=format&fit=crop"
+                img: "/images/Capture d'écran 2026-05-07 054842.png"
               },
               { 
                 title: t("services.fabrics.title"), 
                 desc: t("services.fabrics.desc"), 
                 icon: <Zap className="text-blue-600" size={32} />,
-                img: "https://images.unsplash.com/photo-1549490349-8643362247b5?q=80&w=500&auto=format&fit=crop"
+                img: "/images/Capture d'écran 2026-05-07 055043.png"
               },
               { 
                 title: t("services.construction.title"), 
                 desc: t("services.construction.desc"), 
                 icon: <ShieldCheck className="text-blue-600" size={32} />,
-                img: "https://images.unsplash.com/photo-1581578731522-745d0514224a?q=80&w=500&auto=format&fit=crop"
+                img: "/images/Capture d'écran 2026-05-07 054943.png"
               }
             ].map((service, i) => (
               <motion.div 
@@ -439,7 +439,7 @@ export default function Home() {
               className="relative aspect-square rounded-[64px] overflow-hidden shadow-2xl"
             >
               <img 
-                src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop" 
+                src="/images/657233555_122114372115241325_4439502890147710673_n.jpg" 
                 alt="Professional commitment" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

@@ -17,14 +17,14 @@ const mediaItems = [
     id: 1, 
     type: "image", 
     category: "windows", 
-    src: "https://images.unsplash.com/photo-1590650153855-d9e808231d41?q=80&w=800&auto=format&fit=crop", 
+    src: "/images/Capture d'écran 2026-05-07 055001.png", 
     title: "Entretien Vitrage Siège Social" 
   },
   { 
     id: 2, 
     type: "video", 
     category: "fabrics", 
-    src: "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?q=80&w=800&auto=format&fit=crop", 
+    src: "/images/Capture d'écran 2026-05-07 055043.png", 
     videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-professional-cleaning-service-woman-sprays-disinfectant-on-the-counter-44161-large.mp4",
     title: "Démonstration Nettoyage Tissus" 
   },
@@ -32,21 +32,21 @@ const mediaItems = [
     id: 3, 
     type: "image", 
     category: "construction", 
-    src: "https://images.unsplash.com/photo-1581578731522-745d0514224a?q=80&w=800&auto=format&fit=crop", 
+    src: "/images/Capture d'écran 2026-05-07 054822.png", 
     title: "Fin de chantier Résidentiel" 
   },
   { 
     id: 4, 
     type: "image", 
     category: "windows", 
-    src: "https://images.unsplash.com/photo-1527515545081-5db817172677?q=80&w=800&auto=format&fit=crop", 
+    src: "/images/656010950_122114372103241325_9105145638804172464_n.jpg", 
     title: "Commerce Centre-Ville" 
   },
   { 
     id: 5, 
     type: "video", 
     category: "construction", 
-    src: "https://images.unsplash.com/photo-1505798577917-a65157d3320a?q=80&w=800&auto=format&fit=crop", 
+    src: "/images/Capture d'écran 2026-05-07 054943.png", 
     videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-house-cleaning-service-vacuuming-the-floor-44155-large.mp4",
     title: "Vidéo Avant/Après Chantier" 
   },
@@ -54,30 +54,30 @@ const mediaItems = [
     id: 6, 
     type: "image", 
     category: "fabrics", 
-    src: "https://images.unsplash.com/photo-1540518614846-7eba433eb628?q=80&w=800&auto=format&fit=crop", 
+    src: "/images/Capture d'écran 2026-05-07 054924.png", 
     title: "Chaises Bureau Prestige" 
   },
   { 
     id: 7, 
     type: "image", 
     category: "windows", 
-    src: "https://images.unsplash.com/photo-1541604193435-225878994a33?q=80&w=800&auto=format&fit=crop", 
-    title: "Nettoyage Panneaux Solaires" 
+    src: "/images/657444440_122114372091241325_8338781476569145620_n.jpg", 
+    title: "Nettoyage Châssis" 
   },
   { 
     id: 8, 
     type: "video", 
     category: "windows", 
-    src: "https://images.unsplash.com/photo-1613144383900-13d219b222da?q=80&w=800&auto=format&fit=crop", 
+    src: "/images/Capture d'écran 2026-05-07 054903.png", 
     videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-cleaning-a-window-with-a-squeegee-under-the-sun-44158-large.mp4",
     title: "Technique eau pure en action" 
   },
   { 
     id: 9, 
     type: "image", 
-    category: "construction", 
-    src: "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=800&auto=format&fit=crop", 
-    title: "Cuisine après remise en état" 
+    category: "windows", 
+    src: "/images/659811305_122114372127241325_4961321725729247414_n.jpg", 
+    title: "Nettoyage Véranda" 
   },
 ];
 
